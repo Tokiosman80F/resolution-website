@@ -115,3 +115,20 @@ main {
   font-size: 25px;
   color: #737272;
 }
+/* ----POSTER---- */
+.poster-img {
+  background: url(/images/watch.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+}
+.poster-text {
+  text-align: left;
+  padding: 60px 0px 60px 64px;
+}
+.poster-text h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: 24px;
+}
