@@ -116,8 +116,11 @@ main {
   color: #737272;
 }
 /* ----POSTER---- */
+/* .poster { */
+/* background: url(../images/gradient1.png); */
+
 .poster-img {
-  background: url(../images/watch.png);
+  background: url(../images/gradient1.png), url(../images/watch.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
