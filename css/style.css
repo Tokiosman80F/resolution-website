@@ -2,8 +2,14 @@
   margin: 0;
   font-family: "Work Sans", sans-serif;
 }
+/* common use */
+section {
+  margin-bottom: 130px;
+}
+/*---- HEADER---- */
 header {
   position: relative;
+  margin-bottom: 130px;
 }
 .bg {
   background: url(/images/banner/banner3.png);
@@ -37,4 +43,44 @@ header {
   font-weight: 600;
   font-size: 20px;
   display: inline;
+}
+/*---- MAIN---- */
+main {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+  gap: 90px;
+}
+.banner-image {
+}
+.banner-text {
+  width: 416px;
+  height: 400px;
+}
+.banner-text h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+}
+.banner-text p {
+  color: #444343;
+  margin-top: 24px;
+  margin-bottom: 16px;
+}
+.banner-text-point {
+  color: #444343;
+}
+/* .banner-text-point ul {
+  margin-left: 10px;
+} */
+.banner-text-point p {
+  list-style: none;
+  margin-bottom: 10px;
+}
+.banner-text-point p i {
+  color: green;
 }
