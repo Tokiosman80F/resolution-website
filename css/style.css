@@ -84,3 +84,34 @@ main {
 .banner-text-point p i {
   color: green;
 }
+/* ---MY PLAN---- */
+
+.my-plan-title {
+  text-align: center;
+}
+.my-plan-title h3 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 50px;
+}
+.my-skills {
+  display: flex;
+  gap: 50px;
+  justify-content: space-around;
+  text-align: center;
+}
+.skill img {
+  margin-bottom: 40px;
+}
+.skill h4 {
+  font-weight: 700;
+  font-size: 30px;
+  color: #151414;
+  margin-bottom: 16px;
+}
+.skill p {
+  font-weight: 500;
+  font-size: 25px;
+  color: #737272;
+}
